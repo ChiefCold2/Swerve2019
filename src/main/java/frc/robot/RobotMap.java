@@ -21,7 +21,7 @@ public class RobotMap {
   public static int throttle_axis = 0;
   public static int strafe_axis = 1;
   public static int rotate_axis = 2;
-  public static int Length  = 25;
+  public static int Length  = 26;
   public static int width = 25;
   // If you are using multiple modules, make sure to define both the port
   // number and the module. For example you with a rangefinder:
