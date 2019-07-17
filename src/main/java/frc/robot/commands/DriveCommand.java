@@ -57,7 +57,7 @@ public class DriveCommand extends Command {
 
 
     
-    Robot.DriveSubsystem.swerveDrive(LFTspeed, LBTspeed, RFTspeed, RBTspeed, LFMspeed, LBMspeed, RFMspeed, RBMspeed);
+    Robot.DriveSubsystem.swerveDrive(LFMspeed, LBMspeed, RFMspeed, RBMspeed);
     
   }
 

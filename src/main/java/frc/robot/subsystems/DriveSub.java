@@ -30,16 +30,16 @@ public class DriveSub extends Subsystem {
   
   // Put methods for controlling this subsystem
 
-  public void swerveDrive(double throttleRaw, double rotateRaw){
+  public void swerveDrive(double LFMspeed, double RFMspeed, double LBMspeed, double RBMspeed){
 
-    LFT.set(rotateRaw);
-    LBT.set(rotateRaw);
-    RFT.set(rotateRaw);
-    RBT.set(rotateRaw);   
-    LFM.set(throttleRaw);
-    LBM.set(throttleRaw);
-    RFM.set(throttleRaw);
-    RBM.set(throttleRaw);
+    //LFT.set(rotateRaw);
+    //LBT.set(rotateRaw);
+    //RFT.set(rotateRaw);
+    //RBT.set(rotateRaw);   
+    LFM.set(LFMspeed);
+    LBM.set(LBMspeed);
+    RFM.set(RFMspeed);
+    RBM.set(RBMspeed);
      
 
   }
