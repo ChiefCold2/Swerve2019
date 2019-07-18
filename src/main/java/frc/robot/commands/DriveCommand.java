@@ -47,7 +47,7 @@ public class DriveCommand extends Command {
     double max1 = Math.max(WS1, WS2);
     double max2 = Math.max(WS3, WS4);
     double max = Math.max(max1, max2);
-    
+//github    
     if(max > 1){
       double RFMspeed= WS1/max;
       double LFMspeed = WS2/max;
